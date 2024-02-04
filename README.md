@@ -21,7 +21,7 @@ GCNN model consists of 2 building phases: <br />
 </div>
 2- GNN : <br />
 <div align='center'>
-<img src="images/GNN2.png"></img>
+<img src="images/Gnn2.png"></img>
 </div>
 
 

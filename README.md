@@ -11,17 +11,17 @@ we propose a Graphs Convolutional Network (GCN), which collects information abou
 
 #### Model
 <div align='center'>
-<img src="images/models.jpg"></img>
+<img src="images/models.png"></img>
 </div>
 <br />
 GCNN model consists of 2 building phases: <br />
 1- Graph Construction:  <br 
  <div align='center'>
-<img src="images/graph.jpg"></img>
+<img src="images/graph.png"></img>
 </div>
 2- GNN : <br />
 <div align='center'>
-<img src="images/GNN2.jpg"></img>
+<img src="images/GNN2.png"></img>
 </div>
 
 

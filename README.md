@@ -17,13 +17,19 @@ We propose a Graphs Convolutional Network (GCN), which collects information abou
 <br />
 GCNN model consists of 2 building phases: <br />
 1- Graph Construction: At this point, we build our graph based on the collected information, using a graph with 3 nodes (driver, pedestrian, environment) and then calculate the adjacency matrix to feed them together into our GNN model.
+
+
 <br />
 <div align='center'>
 <img src="images/graph.png"  width="500" height="400" ></img>
 </div>
+
+
 2- GNN: This model consists of three graph convolution layers followed by a linear classifier.
 Each employs ReLU activation functions after processing. The final layer conducts global mean pooling to
 aggregate node embeddings, followed by the dropout Layer and a linear layer as a classifier.
+
+
 <br />
 <div align='center'>
 <img src="images/Gnn2.png"  width="600" height="300" ></img>

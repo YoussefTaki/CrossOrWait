@@ -1,4 +1,5 @@
-# STMGCN: A Spatio-Temporal Multi-Graph Convolutional Neural Network for Human Trajectory Prediction
+# Is the pedestrian going to cross or wait? Predicting Pedestrian
+Crossing Intention with Graph Neural Network
 ### Taki Youssef
 
 ### Graph Model
@@ -9,10 +10,19 @@ we propose a Graphs Convolutional Network (GCN), which collects information abou
 
 
 #### Model
+<div align='center'>
+<img src="images/models.jpg"></img>
+</div>
 <br />
-Social-STGCNN model consists of 2 building blocks: <br />
-1- ST-GCNN: A Spatio-Tempral Graph CNN that creates a spatio-temporal graph embedding representing the previous pedestrians trajectories. <br />
-2- TXP-CNN: A Time-Extrapolator CNN that utilizes the spatio-temporal graph embedding to predict future trajectories.<br />
+GCNN model consists of 2 building phases: <br />
+1- Graph Construction:  <br 
+ <div align='center'>
+<img src="images/graph.jpg"></img>
+</div>
+2- GNN : <br />
+<div align='center'>
+<img src="images/GNN2.jpg"></img>
+</div>
 
 
 ### Setup: 

@@ -1,8 +1,6 @@
 # Is the pedestrian going to cross or wait? Predicting Pedestrian
 Crossing Intention with Graph Neural Network
-### Taki Youssef
 
-### Graph Model
 
 <br />
 We propose a Graphs Convolutional Network (GCN), which collects information about the pedestrians, Driver, and the environment in a real driving scenario  by focusing on extracting the largest number of information and creating a graph,  Our results show an improvement over the state of art by 8% on Accuracy.
